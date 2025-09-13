@@ -2,6 +2,12 @@
 
 This is a list of sound, audio and music development tools which contains machine learning, audio generation, audio signal processing, sound synthesis, spatial audio, music information retrieval, music generation, speech recognition, speech synthesis, singing voice synthesis and more.
 
+The repository also includes `comfyui_workflow_ui.py`, a maximalist utility
+that reads a ComfyUI workflow JSON or PNG, auto-clones the ComfyUI engine,
+spins up a local server, exposes all adjustable node parameters in a Tkinter
+UI and executes the workflow end‑to‑end, saving resulting images or audio.
+The ComfyUI server port can be customized with `--port`.
+
 * [Machine Learning (ML)](#ml)
 * [Audio Generation (AG)](#ag)
 * [Audio Signal Processing (ASP)](#asp)
